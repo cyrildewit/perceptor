@@ -22,6 +22,7 @@
  * Copyright 2016 - 2017 <copyright holder>
  *
  * Perceptor v1.0.0 | MIT License | github.com/cyrildewit/perceptor
+ * Bootstrap Grid v4.0.0-beta.3 | MIT License | https://getbootstrap.com
  * normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css
  */
 
@@ -78,7 +79,7 @@
 // Layout
 // ========================================================================
 
-@import "layout/grid";
+@import "layout/bootstrap-grid";
 // @import "layout/site-header";
 // @import "layout/main-nav";
 // @import "layout/site-footer";
