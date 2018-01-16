@@ -2,11 +2,16 @@
 
 > Modern Sass starter kit that requires you to keep your CSS organized and clean.
 
-## Note
+## Overview
 
-This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
+Perceptor is my personal SCSS starter kit. 
 
-* BEM
+### Features
+
+* File structure
+* BEM helper mixins (element & modifier)
+
+**Note:*** This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
 
 ## Example SCSS structure
 
