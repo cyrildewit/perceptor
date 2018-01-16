@@ -9,6 +9,7 @@ Perceptor is my personal SCSS starter kit.
 ### Features
 
 * File structure
+* Bootstrap 4 beta 3 grid
 * BEM helper mixins (element & modifier)
 
 **Note:*** This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
