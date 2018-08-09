@@ -20,7 +20,7 @@
 // Component: Base
 // ========================================================================
 
- *,
+*,
 *::before,
 *::after {
     box-sizing: border-box;
@@ -33,4 +33,13 @@ html {
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  }
+}
+
+@at-root {
+    @-ms-viewport {
+        width: device-width;
+    }
+}
+
+
+// body and basic typography
