@@ -32,20 +32,21 @@
 @import "abstracts/variables";
 @import "abstracts/mixins/bem";
 @import "abstracts/mixins/clearfix";
+@import "abstracts/mixins/hover";
 
 
 // Vendors
 // ========================================================================
 
-// @import "vendors/normalize";
+// @import "vendors/some-lib";
 
 
 // Base
 // ========================================================================
 
 @import "base/fonts";
+@import "base/sanitize";
 @import "base/base";
-@import "base/helpers";
 
 
 // Elements
@@ -90,6 +91,14 @@
 
 // @import "pages/home";
 // @import "pages/contact";
+
+
+// Utilities
+// ========================================================================
+
+@import "utilities/clearfix";
+@import "../node_modules/bootstrap/scss/utilities/display";
+@import "../node_modules/bootstrap/scss/utilities/flex";
 
 
 // Shame
