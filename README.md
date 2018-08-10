@@ -4,7 +4,7 @@
 
 ## Overview
 
-Perceptor is my personal SCSS starter kit.
+Perceptor is my personal SCSS boilerplate. It's the result of 4 years of finding the right structure that I can use for my personal projects.
 
 ### Features
 
@@ -12,7 +12,7 @@ Perceptor is my personal SCSS starter kit.
 * Bootstrap 4 grid included
 * BEM helper mixins (element & modifier)
 
-**Note:*** This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
+**Note:** This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
 
 ## Example SCSS structure
 
@@ -51,7 +51,7 @@ Perceptor is my personal SCSS starter kit.
 
 ## Credits
 
-* **Cyril de Wit** - __Initial work__ - [cyrildewit](https://github.com/cyrildewit)
+* **Cyril de Wit** - _Initial work_ - [cyrildewit](https://github.com/cyrildewit)
 
 See also the list of [contributors](https://github.com/cyrildewit/perceptor/graphs/contributors) who participated in this project.
 
