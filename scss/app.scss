@@ -12,17 +12,18 @@
 //   5. Components
 //   6. Layout
 //   7. Pages
-//   8. Shame
+//   8. Utilities
+//   9. Shame
 //
 // ========================================================================
 
 /**
  * <creator's name> (http://www.example.com)
- * Copyright 2016 - 2017 <copyright holder>
+ * Copyright 2016 - 2018 <copyright holder>
  *
  * Perceptor v1.0.0 | MIT License | github.com/cyrildewit/perceptor
- * Bootstrap Grid v4.0.0-beta.3 | MIT License | https://getbootstrap.com
- * normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css
+ * Bootstrap Grid v4.0.0 | MIT License | https://getbootstrap.com
+ * sanitize.css v6.0.0 | CC0 License | github.com/csstools/sanitize.css
  */
 
 // Abstracts
@@ -46,7 +47,7 @@
 
 @import "base/fonts";
 @import "base/sanitize";
-@import "base/base";
+@import "base/generic";
 
 
 // Elements

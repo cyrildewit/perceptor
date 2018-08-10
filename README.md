@@ -10,6 +10,7 @@ Perceptor is my personal SCSS boilerplate. It's the result of 4 years of finding
 
 * Organized component structure
 * Bootstrap 4 grid included
+* Sanitize included
 * BEM helper mixins (element & modifier)
 
 **Note:** This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
