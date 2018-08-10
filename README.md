@@ -6,6 +6,8 @@
 
 Perceptor is my personal SCSS boilerplate. It's the result of 4 years of finding the right structure that I can use for my personal projects.
 
+Need an compiler? See [Perceptor Studio](https://github.com/cyrildewit/perceptor-studio)!
+
 ### Features
 
 * Organized component structure
