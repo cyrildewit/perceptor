@@ -17,6 +17,10 @@ Need an compiler? See [Perceptor Studio](https://github.com/cyrildewit/perceptor
 
 **Note:** This project is currently under development. If you have any ideas or tips, please feel free to report that at the issue tracker.
 
+### Rules / Conventions
+
+- Don't use Sass placeholders (https://www.sitepoint.com/avoid-sass-extend/)
+
 ## Example SCSS structure
 
 ```tree
