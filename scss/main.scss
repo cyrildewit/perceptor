@@ -1,0 +1,124 @@
+// ========================================================================
+//
+// Perceptor (SCSS Boilerplate)
+// Created by Cyril de Wit (http://www.cyrildewit.nl)
+//
+//  Table of Contents:
+//
+//   00. Settings
+//   01. Tools
+//   02. Base
+//   03. Atoms
+//   04. Molecules
+//   05. Organisms
+//   06. Templates
+//   07. Pages
+//   08. Utilities
+//   09. Vendor
+//   10. Shame
+//
+// ========================================================================
+
+/**
+ * <creator's name> (http://www.example.com)
+ * Copyright 2016 - 2018 <copyright holder>
+ *
+ * Perceptor v1.0.0 | MIT License | github.com/cyrildewit/perceptor
+ * Bootstrap Grid v4.0.0 | MIT License | https://getbootstrap.com
+ * sanitize.css v6.0.0 | CC0 License | github.com/csstools/sanitize.css
+ */
+
+// Settings
+// ========================================================================
+
+@import "00_settings/colors";
+@import "00_settings/spacing";
+@import "00_settings/variables"; // or config
+
+
+// Tools
+// ========================================================================
+
+@import "01_tools/functions";
+@import "01_tools/mixins/bem";
+@import "01_tools/mixins/clearfix";
+@import "01_tools/mixins/hover";
+
+
+// Base
+// ========================================================================
+
+@import "02_base/fonts";
+@import "02_base/sanitize";
+@import "02_base/generic";
+
+
+// Atoms
+// ========================================================================
+
+// @import "03_atoms/typography";
+// @import "03_atoms/lists";
+// @import "03_atoms/image";
+// @import "03_atoms/blockquotes";
+// @import "03_atoms/tables";
+// @import "03_atoms/code";
+// @import "03_atoms/forms";
+// @import "03_atoms/buttons";
+
+
+// Molecules
+// ========================================================================
+
+// @import "04_molecules/card";
+// @import "04_molecules/level";
+// @import "04_molecules/media";
+// @import "04_molecules/menu";
+// @import "04_molecules/message";
+// @import "04_molecules/modal";
+// @import "04_molecules/nav";
+// @import "04_molecules/pagination";
+// @import "04_molecules/panel";
+// @import "04_molecules/tabs";
+
+
+// Organisms
+// ========================================================================
+
+@import "05_organisms/bootstrap-grid";
+// @import "05_organisms/site-header";
+// @import "05_organisms/main-nav";
+// @import "05_organisms/site-footer";
+
+
+// Templates
+// ========================================================================
+
+// @import "06_templates/home";
+// @import "06_templates/contact";
+
+
+// Pages
+// ========================================================================
+
+// @import "07_pages/home";
+// @import "07_pages/contact";
+
+
+// Utilities
+// ========================================================================
+
+@import "08_utilities/clearfix";
+@import "../node_modules/bootstrap/scss/utilities/display";
+@import "../node_modules/bootstrap/scss/utilities/flex";
+
+
+// Vendor
+// ========================================================================
+
+// @import "09_vendor/some-lib";
+
+
+// Shame
+// ========================================================================
+
+@import "shame";
