@@ -65,6 +65,26 @@ Need an compiler? See [Perceptor Studio](https://github.com/cyrildewit/perceptor
 |   ├── _clearfix.scss
 ```
 
+## To do
+
+Read:
+
+- https://medium.com/codyhouse/create-your-design-system-part-2-grid-layout-aa961d59b8d6
+- https://medium.com/codyhouse/create-your-design-system-part-1-typography-7c630d9092bd
+- https://ether.thescenery.co/spacing/
+- http://thesassway.com/beginner/how-to-structure-a-sass-project
+- https://www.sitepoint.com/architecture-in-sass/
+- https://github.com/steveosoule/atomic-design-sass-outline/tree/master/stylesheets
+- https://blog.alexdevero.com/atomic-design-scalable-modular-css-sass/
+- https://webdesign.tutsplus.com/articles/structuring-sass-saying-goodbye-to-atomic-design-ambiguity--cms-26679
+- https://css-tricks.com/lets-define-exactly-atomic-css/
+- http://atomicdesign.bradfrost.com/chapter-2/
+- https://www.lullabot.com/articles/bem-atomic-design-a-css-architecture-worth-loving
+- https://css-tricks.com/abem-useful-adaptation-bem/
+- https://www.sitepoint.com/introducing-ccss-component-css/
+- https://www.sitepoint.com/introducing-ccss-component-css/
+- https://csswizardry.com/2015/08/bemit-taking-the-bem-naming-convention-a-step-further/
+
 ## Credits
 
 * **Cyril de Wit** - _Initial work_ - [cyrildewit](https://github.com/cyrildewit)
