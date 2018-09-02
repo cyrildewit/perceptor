@@ -19,40 +19,49 @@ Need an compiler? See [Perceptor Studio](https://github.com/cyrildewit/perceptor
 
 ### Rules / Conventions
 
+- Follow the rules of MaintainableCSS
 - Don't use Sass placeholders (https://www.sitepoint.com/avoid-sass-extend/)
 
 ## Example SCSS structure
 
 ```tree
 .
-├── abstracts
+├── 00_settings
+|   ├── _colors.scss
+|   ├── _spacing.scss
+|   ├── _variables.scss
+├── 01_tools
 |   ├── mixins
 |       ├── _bem.scss
 |       ├── _clearfix.scss
 |       ├── _hover.scss
 |   ├── _functions.scss
-|   ├── _variables.scss
-├── base
+├── 02_base
 |   ├── _fonts.scss
 |   ├── _generic.scss
 |   ├── _sanitize.scss
-├── components
+├── 03_atoms
 |   ├── _button.scss
 |   ├── _card.scss
 |   ├── _panel.scss
-├── elements
+├── 04_molecules
 |   ├── _typography.scss
 |   ├── _lists.scss
 |   ├── _image.scss
-├── layout
+├── 05_organisms
 |   ├── _bootstrap-grid.scss
 |   ├── _site-header.scss
 |   ├── _section.scss
 |   ├── _site-footer.scss
-├── pages
+├── 06_templates
 |   ├── _home.scss
 |   ├── _week-action.scss
-├── utilities
+├── 07_pages
+|   ├── _home.scss
+|   ├── _week-action.scss
+├── 08_utilities
+|   ├── _clearfix.scss
+├── 09_vendor
 |   ├── _clearfix.scss
 ```
 
