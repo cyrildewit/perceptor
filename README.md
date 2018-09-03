@@ -53,6 +53,12 @@ Summary of: https://css-tricks.com/abem-useful-adaptation-bem/
 }
 ```
 
+#### Utilities
+
+```text
+u-utilityName
+```
+
 #### No Sass placeholders
 
 Don't use Sass placeholder! Instead use mixins.
