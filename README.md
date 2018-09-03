@@ -19,8 +19,45 @@ Need an compiler? See [Perceptor Studio](https://github.com/cyrildewit/perceptor
 
 ### Rules / Conventions
 
-- Follow the rules of MaintainableCSS
-- Don't use Sass placeholders (https://www.sitepoint.com/avoid-sass-extend/)
+Summary of: https://css-tricks.com/abem-useful-adaptation-bem/
+
+#### ABEM
+
+```text
+[a/m/o]-blockName__elementName -modifierName
+```
+
+#### camelCase
+
+```css
+/* classic + atomic prefix */
+.o-subscribe-form__field-item {}
+
+/* camelCase + atomic prefix */
+.o-subscribeForm__fieldItem {}
+```
+
+#### Seperated modifier
+
+```css
+/* classic */
+.block-name__element-name--green {
+  background: green;
+  color: white;
+}
+
+/* seperated modifier */
+.a-blockName__elementName.-green {
+  background: green;
+  color: white;
+}
+```
+
+#### No Sass placeholders
+
+Don't use Sass placeholder! Instead use mixins.
+
+https://www.sitepoint.com/avoid-sass-extend/
 
 ## Example SCSS structure
 
