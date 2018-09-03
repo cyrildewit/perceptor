@@ -69,44 +69,55 @@ https://www.sitepoint.com/avoid-sass-extend/
 
 ```tree
 .
-├── 00_settings
-|   ├── _colors.scss
-|   ├── _spacing.scss
-|   ├── _variables.scss
-├── 01_tools
+├── 00_abstracts
 |   ├── mixins
 |       ├── _bem.scss
 |       ├── _clearfix.scss
 |       ├── _hover.scss
 |   ├── _functions.scss
-├── 02_base
+|   ├── _variables.scss
+├── 01_base
 |   ├── _fonts.scss
 |   ├── _generic.scss
 |   ├── _sanitize.scss
-├── 03_atoms
+├── 02_atoms
 |   ├── _button.scss
 |   ├── _card.scss
 |   ├── _panel.scss
-├── 04_molecules
+├── 03_molecules
 |   ├── _typography.scss
 |   ├── _lists.scss
 |   ├── _image.scss
-├── 05_organisms
+├── 04_organisms
 |   ├── _bootstrap-grid.scss
 |   ├── _site-header.scss
 |   ├── _section.scss
 |   ├── _site-footer.scss
-├── 06_templates
+├── 05_templates
 |   ├── _home.scss
 |   ├── _week-action.scss
-├── 07_pages
+├── 06_pages
 |   ├── _home.scss
 |   ├── _week-action.scss
-├── 08_utilities
+├── 07_utilities
 |   ├── _clearfix.scss
-├── 09_vendor
+├── 08_vendor
 |   ├── _clearfix.scss
 ```
+
+### Organizing
+
+* `00_abstracts`
+    * Sass tools, helpers, global variables, functions, mixins.
+* `01_base`
+    * Boilerplate code; reset, global typographic rules, generic standard styles.
+* `02_atoms`
+* `03_molecules`
+* `04_organisms`
+* `05_templates`
+* `06_pages`
+* `07_utilities`
+* `08_vendor`
 
 ## To do
 

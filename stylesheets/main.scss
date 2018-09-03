@@ -6,16 +6,15 @@
 //  Table of Contents:
 //
 //   00. Settings
-//   01. Tools
-//   02. Base
-//   03. Atoms
-//   04. Molecules
-//   05. Organisms
-//   06. Templates
-//   07. Pages
-//   08. Utilities
-//   09. Vendor
-//   10. Shame
+//   01. Abstracts
+//   02. Atoms
+//   03. Molecules
+//   04. Organisms
+//   05. Templates
+//   06. Pages
+//   07. Utilities
+//   08. Vendor
+//   09. Shame
 //
 // ========================================================================
 
@@ -28,17 +27,10 @@
  * sanitize.css v6.0.0 | CC0 License | github.com/csstools/sanitize.css
  */
 
-// Settings
+// Abstracts
 // ========================================================================
 
-@import "00_settings/colors";
-@import "00_settings/spacing";
-@import "00_settings/variables"; // or config
-
-
-// Tools
-// ========================================================================
-
+@import "00_settings/variables";
 @import "01_tools/functions";
 @import "01_tools/mixins/bem";
 @import "01_tools/mixins/clearfix";
